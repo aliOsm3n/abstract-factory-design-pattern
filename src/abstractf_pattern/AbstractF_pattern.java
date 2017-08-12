@@ -23,14 +23,14 @@ public class AbstractF_pattern {
           GUIBuilder builder = new GUIBuilder();
     AbstractWidgetFactory widgetFactory = null;
     //check what platform we're on
-    if(Platform.currentPlatform()=="MACOSX"){
+    // if(Platform.currentPlatform()=="MACOSX"){
       widgetFactory  = new MacOSXWidgetFactory();
-    } else {
-      widgetFactory  = new MsWindowsWidgetFactory();
-    }
-    builder.buildWindow(widgetFactory);
+   // } else {
+    //  widgetFactory  = new MsWindowsWidgetFactory();
+   // }
+   // builder.buildWindow(widgetFactory);
         
         // TODO code application logic here
     }
-    
 }
+
